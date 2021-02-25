@@ -292,13 +292,6 @@ if __name__ == '__main__':
 #    print('Expected Output:', (24, 'hello'))
 #    print('Actual Output:', ciphertext.decrypt_message())
 
-    #TODO: WRITE YOUR TEST CASES HERE
-
-    #TODO: best shift value and unencrypted story
-
-    # Ctrl F5
-
-    # story = get_story_string()
     story = "MXVW NLGGLQJ! BRX'YH EORFNHG WKH DG WKDW ZDV KHUH"
     c1 = CiphertextMessage(story)
     print(c1.decrypt_message())
