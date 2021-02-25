@@ -10,17 +10,6 @@ import unittest
 from graph import Digraph, Node, WeightedEdge
 
 # Problem 2: Building up the Campus Map
-#
-# Problem 2a: Designing your graph
-#
-# What do the graph's nodes represent in this problem? 
-# What # do the graph's edges represent?
-# Where are the distances represented?
-#
-# Answer:
-# Graph nodes represent the buildings
-# Edges represent the path from one building to another
-# Distances give both the total distance and the distance outdoors
 
 # Problem 2b: Implementing load_map
 def load_map(map_filename):
@@ -72,20 +61,7 @@ def load_map(map_filename):
 
     return g
 
-# Problem 2c: Testing load_map
-# Include the lines used to test load_map below, but comment them out
-
-# map = load_map('test_load_map.txt')
-# print(map)
-
 # Problem 3: Finding the Shorest Path using Optimized Search Method
-
-# Problem 3a: Objective function
-
-# What is the objective function for this problem? What are the constraints?
-
-# Answer: The objective function is minimum sum of the total distance given the constraint that
-# the outdoor distance has to be less than the maximum distance outdoors.  
 
 # Problem 3b: Implement get_best_path
 
@@ -237,7 +213,6 @@ def directed_dfs(digraph, start, end, max_total_dist, max_dist_outdoors):
 
     return path
 
-
 # ================================================================
 # Begin tests -- you do not need to modify anything below this line
 # ================================================================
@@ -323,8 +298,6 @@ class Ps2Test(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
-
-    print('salad')
 
     # map = load_map('test_graph.txt')
     # sp = get_best_path(map, start = Node(0), end = Node(5), path = [], best_path = None, dist = 0, best_dist = 10, outdoor_dist = 0, max_dist_outdoors = 15)  
