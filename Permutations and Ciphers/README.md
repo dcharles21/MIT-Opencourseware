@@ -4,4 +4,4 @@ ps4a provides a recursive solution for finding all permutations of a given strin
 
 ps4b is a caesar cipher that shifts every letter of a message by some interger. 
 
-ps4c is a substitution cipher that maps each letter to some distinct letter
+ps4c is a substitution cipher that permutes the letters.
