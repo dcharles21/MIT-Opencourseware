@@ -1,1 +1,1 @@
-Implementation of the game hangman from problem set 2 of CS 6.0001
+Playable build of the game hangman from problem set 2 of CS 6.0001
