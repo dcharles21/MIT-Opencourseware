@@ -307,7 +307,6 @@ if __name__ == "__main__":
     # sp = get_best_path(map, start = Node(2), end = Node(3), path = [], best_path = None, dist = 0, best_dist = 10, outdoor_dist = 0, max_dist_outdoors = 0)  
     # print(sp)
 
-
     # map = load_map('test_graph.txt')
     # sp = directed_dfs(map, start = '0', end = '5', max_total_dist = 10, max_dist_outdoors = 15)  
     # print(sp)    
