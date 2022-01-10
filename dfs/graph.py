@@ -1,6 +1,6 @@
 # 6.0002 Problem Set 5
 # Graph optimization
-# Name: Beako I suppose
+# Name: 
 # Collaborators: 
 # Time: 
 
