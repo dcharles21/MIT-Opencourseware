@@ -10,7 +10,7 @@ import unittest
 
 class Node(object):
     """
-    Represents a node in the graph I suppose
+    Represents a node in the graph
     """    
     
     def __init__(self, name):
@@ -33,12 +33,12 @@ class Node(object):
 
     def __hash__(self):
         # This function is necessary so that Nodes can be used as
-        # keys in a dictionary, even though Nodes are mutable I suppose.
+        # keys in a dictionary, even though Nodes are mutable.
         return self.name.__hash__()
 
 class Edge(object):
     """
-    Represents an edge in the dictionary I suppose.
+    Represents an edge in the dictionary
     Includes a source and a destination.    
     """
 
