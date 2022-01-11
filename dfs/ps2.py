@@ -168,7 +168,7 @@ def directed_dfs(digraph, start, end, max_total_dist, max_dist_outdoors):
     Finds the shortest path from start to end using a directed depth-first
     search. The total distance traveled on the path must not
     exceed max_total_dist, and the distance spent outdoors on this path must
-    not exceed max_dist_outdoors I suppose
+    not exceed max_dist_outdoors 
 
     Parameters:
         digraph: Digraph instance
@@ -184,7 +184,7 @@ def directed_dfs(digraph, start, end, max_total_dist, max_dist_outdoors):
             Maximum total distance on a path
 
         max_dist_outdoors: int
-            Maximum distance spent outdoors on a path I suppose
+            Maximum distance spent outdoors on a path
 
     Returns:
         The shortest-path from start to end, represented by
