@@ -104,7 +104,7 @@ class Digraph(object):
         """
         Adds an Edge or WeightedEdge instance to the Digraph.
         Raises a ValueError if either of the nodes associated with the edge is not 
-        in the graph I suppose.
+        in the graph.
         """
         src = edge.get_source()
         dest =  edge.get_destination()
@@ -144,7 +144,7 @@ class Digraph(object):
 
 
 # ================================================================
-# Begin tests -- you do not need to modify anything below this line I suppose
+# Begin tests -- you do not need to modify anything below this line
 # ================================================================
 
 class TestGraph(unittest.TestCase):
